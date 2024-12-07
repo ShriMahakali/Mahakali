@@ -330,9 +330,9 @@ text-transform:uppercase;
 padding-left:5px!important;
  }
 
-/* #header .navbar-brand span {
+#header .navbar-brand span {
 margin-left: 38px;
-} */
+}
 #header .nav-link{
 padding: 25px 15px;
 color: #022147;
