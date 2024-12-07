@@ -49,8 +49,8 @@ padding-left:15px;
  
 .carousel-item .center_hm1 {
     z-index: 3;
-    left: 10%;
-    bottom: 0;
+    left: 0%;
+    bottom: 0%;
 	opacity: 0;
     transform: translateX(0px);
 	
@@ -207,8 +207,18 @@ padding-top:24%;
 
 @media screen and (max-width : 767px){
 .center_hm1{
-display:none; 
+    width: 50%;
  }
+ .center_hm1 img{
+    width: 100%;
+ }
+ .carousel-item.active .center_hm1{
+    transform: translateX(100px);
+	
+}
+.carousel-item .center_hm1{
+    top:15%;
+}
 .carousel-caption{
 position:static!important;
 width:100%;
